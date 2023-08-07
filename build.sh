@@ -11,6 +11,6 @@ pip install bleach
 pip install django-filter
 pip install djoser
 
-python manage.py makemigrations
-python manage.py migrate
+# python manage.py makemigrations
+# python manage.py migrate
 python manage.py runserver
