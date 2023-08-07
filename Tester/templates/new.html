@@ -1,0 +1,10 @@
+
+{% if menu %}
+
+{% for item in menu %}
+{{ item.last_name }} : {{ item.first_name }}
+<br>
+{% endfor %}
+{% else %}
+<p> No items to display !</p>
+{% endif %}
