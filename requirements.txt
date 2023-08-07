@@ -1,0 +1,8 @@
+django==*
+pipfile==*
+djangorestframework==*
+django-debug-toolbar==*
+djangorestframework-xml==*
+bleach==*
+django-filter==*
+djoser==*

@@ -2,18 +2,17 @@
 # exit on error
 set -o errexit
 
-pip install pipenv
+python -m venv venv
+.\venv\Scripts\activate
 
-pipenv shell
-
-pipenv install django
-pipenv install pipfile
-pipenv install djangorestframework
-pipenv install django-debug-toolbar
-pipenv install djangorestframework-xml
-pipenv install bleach
-pipenv install django-filter
-pipenv install djoser
+pip install django
+pip install pipfile
+pip install djangorestframework
+pip install django-debug-toolbar
+pip install djangorestframework-xml
+pip install bleach
+pip install django-filter
+pip install djoser
 
 # python manage.py makemigrations
 # python manage.py migrate
