@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pipfile = "*"
+djangorestframework = "*"
+django-debug-toolbar = "*"
+djangorestframework-xml = "*"
+bleach = "*"
+django-filter = "*"
+djoser = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
