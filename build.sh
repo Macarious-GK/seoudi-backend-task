@@ -2,8 +2,7 @@
 # exit on error
 set -o errexit
 
-pipenv shell
-pipenv install
+pip install Pipfile
 
 python manage.py makemigrations
 python manage.py migrate
